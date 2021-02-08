@@ -5,12 +5,13 @@
 Dada a seguinte User Story: 
 Como Gerente de Marketing, gostaria que fosse enviada uma mensagem para o cliente, participante do clube de clientes, quando pelo menos um dos produtos comumente consumidos por ele entrar em promoção.
 Critérios de aceitação: 
-A mensagem deve ter o formato: "Olá , os seguintes produtos que você costuma consumir estão em promoção! Vem conferir:
-- <Nome do produto>: <De> por <preço da promoção>"
+A mensagem deve ter o formato: "Olá , os seguintes produtos que você costuma consumir estão em promoção! 
+Vem conferir: "<Nome do produto>: <De> por <preço da promoção>"
 A mensagem só deve ser enviada para o cliente se o produto que entrar em promoção for de consumo do mesmo e o cliente não efetuou sua compra nos últimos 5 dias.
 A mensagem deve conter no máximo 3 produtos de consumo contínuo do cliente, sendo estes sempre os mais relevantes para o mesmo.
 O sistema deverá salvaguardar a informação de que a mensagem foi enviada para o cliente.
 Pede-se:
+
 1)	De acordo com sua experiência, escreva os possíveis cenários de testes.
 Resposta:
 Fluxo Principal:
